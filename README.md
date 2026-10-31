@@ -11,6 +11,7 @@ Built with **modern semantic HTML5, CSS3, and vanilla JavaScript** (zero externa
 | Attribute | Details |
 |---|---|
 | **Company Name** | Chandtara Infra Private Limited / चांदतारा इन्फ्रा प्राइवेट लिमिटेड |
+| **Official Website** | [https://chandtarainfrapvtltd.in](https://chandtarainfrapvtltd.in) |
 | **Corporate Identity Number (CIN)** | `U42209BR2026PTC088206` |
 | **GSTIN** | `10AAOCC2572J1AP` |
 | **PAN** | `AAOCC2572J` |

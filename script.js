@@ -1878,7 +1878,7 @@ function initContactForm() {
 *Message:*
 ${msg}
 ----------------------------------------
-(Sent via chandtarainfra.com)`;
+(Sent via chandtarainfrapvtltd.in)`;
 
     // WhatsApp Direct Link
     const waUrl = `https://wa.me/918797121854?text=${encodeURIComponent(formattedText)}`;
