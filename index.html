@@ -45,7 +45,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2.4.0">
 </head>
 <body class="lang-hi">
 
@@ -300,7 +300,7 @@
               <div class="statutory-list">
                 <div class="statutory-item">
                   <div class="stat-meta">
-                    <span class="stat-label">कॉर्पोरेट पहचान संख्या (CIN)</span>
+                    <span class="stat-label" data-i18n="stat_cin_label">कॉर्पोरेट पहचान संख्या (CIN)</span>
                     <strong class="stat-value" id="val-cin">U42209BR2026PTC088206</strong>
                   </div>
                   <button type="button" class="btn-copy" onclick="copyToClipboard('U42209BR2026PTC088206', this)" title="Copy CIN" aria-label="Copy CIN">
@@ -310,7 +310,7 @@
 
                 <div class="statutory-item">
                   <div class="stat-meta">
-                    <span class="stat-label">जीएसटी पहचान संख्या (GSTIN)</span>
+                    <span class="stat-label" data-i18n="stat_gstin_label">जीएसटी पहचान संख्या (GSTIN)</span>
                     <strong class="stat-value" id="val-gstin">10AAOCC2572J1AP</strong>
                   </div>
                   <button type="button" class="btn-copy" onclick="copyToClipboard('10AAOCC2572J1AP', this)" title="Copy GSTIN" aria-label="Copy GSTIN">
@@ -320,7 +320,7 @@
 
                 <div class="statutory-item">
                   <div class="stat-meta">
-                    <span class="stat-label">स्थायी खाता संख्या (PAN)</span>
+                    <span class="stat-label" data-i18n="stat_pan_label">स्थायी खाता संख्या (PAN)</span>
                     <strong class="stat-value" id="val-pan">AAOCC2572J</strong>
                   </div>
                   <button type="button" class="btn-copy" onclick="copyToClipboard('AAOCC2572J', this)" title="Copy PAN" aria-label="Copy PAN">
@@ -1218,8 +1218,8 @@
               <div class="c-text">
                 <h4 data-i18n="c_phone_title">सीधा फोन संपर्क (Direct Helpline)</h4>
                 <p>
-                  <a href="tel:+918797121854" class="phone-link"><strong>+91 8797121854</strong> (शिवदानी सिंह)</a><br>
-                  <a href="tel:+919097305399" class="phone-link"><strong>+91 9097305399</strong> (गुड्डू सिंह)</a>
+                  <a href="tel:+918797121854" class="phone-link"><strong>+91 8797121854</strong> (<span data-i18n="c_phone_dir_1">शिवदानी सिंह</span>)</a><br>
+                  <a href="tel:+919097305399" class="phone-link"><strong>+91 9097305399</strong> (<span data-i18n="c_phone_dir_2">गुड्डू सिंह</span>)</a>
                 </p>
               </div>
             </div>
@@ -1512,7 +1512,7 @@
         </div>
         <div class="footer-bottom-subbar">
           <div class="footer-directors-credit">
-            <span data-i18n="footer_leadership">नेतृत्व:</span> <strong>शिवदानी कुमार सिंह एवं गुड्डू सिंह</strong>
+            <span data-i18n="footer_leadership">नेतृत्व:</span> <strong data-i18n="footer_directors_names">शिवदानी कुमार सिंह एवं गुड्डू सिंह</strong>
           </div>
           <div class="footer-dev-credit">
             <span data-i18n="footer_developed_by">वेबसाइट विकास:</span>
@@ -1618,6 +1618,6 @@
   <div class="toast-container" id="toast-container"></div>
 
   <!-- Custom Scripts -->
-  <script src="script.js"></script>
+  <script src="script.js?v=2.4.0"></script>
 </body>
 </html>
