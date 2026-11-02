@@ -2719,9 +2719,50 @@ section {
 
 .footer-directors-credit {
   color: #CBD5E1;
+  font-size: 0.82rem;
 }
 .footer-directors-credit strong {
   color: #F8DF8B;
+}
+
+.footer-bottom-subbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-dev-credit {
+  color: #CBD5E1;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+}
+
+.footer-dev-link {
+  color: #F8DF8B;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: all var(--transition-fast);
+}
+
+.footer-dev-link i {
+  font-size: 0.78rem;
+  opacity: 0.85;
+}
+
+.footer-dev-link:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* --- 18. FLOATING BUTTONS & MOBILE BAR --- */
@@ -3369,7 +3410,8 @@ section {
     max-height: 85vh;
   }
   
-  .footer-bottom-flex {
+  .footer-bottom-flex,
+  .footer-bottom-subbar {
     flex-direction: column;
     text-align: center;
     gap: 0.6rem;
